@@ -1,0 +1,17 @@
+#elemento-2, #elemento-3, #elemento-4, #elemento-5 {
+    color: red;
+}
+
+#elemento-1 {
+    color: red;
+    font-size: 2rem;
+}
+
+#primer-elemento{
+    color: red;
+    font-size: 2rem;
+}
+
+#primer-elemento, #segundo-elemento, #tercer-elemento,  #cuarto-elemento, #quinto-elemento {
+    color: red;
+}
