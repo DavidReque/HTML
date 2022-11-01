@@ -1,0 +1,11 @@
+.pasaporencima:hover {
+    color: white;
+    background-color: green;
+
+}
+
+.pasaporencima::selection {
+    background-color: brown;
+    color: chocolate;
+}
+
