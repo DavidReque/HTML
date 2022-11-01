@@ -1,0 +1,24 @@
+.body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pasaporencima:hover {
+    color: white;
+    background-color: green;
+
+}
+
+.pasaporencima::before {
+    content: "Pasar por encima";
+
+}
+
+.pasaporencima:hover::before {
+    content: "Hecho";
+
+}
+
+
