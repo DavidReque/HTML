@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vw;
+    min-width: 100vw;
+    display: flex;
+    font-size: 2rem;
+}
+
+.izquierda {
+    background-color: aquamarine;
+    color: white;
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+}
+
+.derecha {
+    padding: 15px;
+    background-color: yellowgreen;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+@media (max-width: 640px) {
+    body {
+        flex-direction: column-reverse;
+    }
+    .izquierda {
+        flex-direction: row;
+        
+    }
+}
+
